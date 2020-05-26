@@ -136,10 +136,10 @@ function App() {
 
   const fetchFavorites = async (nextToken?: string) => {
     const favorites = (await API.graphql(
-      graphqlOperation(listFavoriteComics, { nextToken })
+      graphqlOperation(listFavoriteComics, { nextToken, limit: 100 })
     )) as {
       data: {
-        listFavoriteComics: { items: [Favorite]; nextToken?: string };
+        listFavoriteComics: { items: [Favorite], nextToken?: string };
       };
     };
     if (favorites.data.listFavoriteComics.nextToken) {
