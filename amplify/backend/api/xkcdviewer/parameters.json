@@ -1,0 +1,11 @@
+{
+    "AppSyncApiName": "xkcdviewer",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST",
+    "DynamoDBEnableServerSideEncryption": "false",
+    "AuthCognitoUserPoolId": {
+        "Fn::GetAtt": [
+            "authxkcdviewer923d6e7b",
+            "Outputs.UserPoolId"
+        ]
+    }
+}

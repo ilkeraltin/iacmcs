@@ -1,0 +1,20 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-xkcdviewer-dev-80433-authRole",
+            "UnauthRoleArn": "arn:aws:iam::115497923992:role/amplify-xkcdviewer-dev-80433-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::115497923992:role/amplify-xkcdviewer-dev-80433-authRole",
+            "Region": "eu-central-1",
+            "DeploymentBucketName": "amplify-xkcdviewer-dev-80433-deployment",
+            "UnauthRoleName": "amplify-xkcdviewer-dev-80433-unauthRole",
+            "StackName": "amplify-xkcdviewer-dev-80433",
+            "StackId": "arn:aws:cloudformation:eu-central-1:115497923992:stack/amplify-xkcdviewer-dev-80433/c78bf3f0-9a5f-11ea-bbbb-06d8413a1460",
+            "AmplifyAppId": "d2xce3ip66ausb"
+        },
+        "categories": {
+            "auth": {
+                "xkcdviewer923d6e7b": {}
+            }
+        }
+    }
+}

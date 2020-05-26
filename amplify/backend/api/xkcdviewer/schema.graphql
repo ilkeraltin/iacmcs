@@ -1,0 +1,23 @@
+type Query {
+  getComic(comicId: Int): Comic @function(name: "getComicById-${env}")
+}
+
+type Comic {
+  id: String
+  month: String
+  num: Int!
+  link: String
+  year: String
+  news: String
+  safe_title: String
+  transcript: String
+  alt: String
+  img: String!
+  title: String!
+  day: String
+}
+
+type FavoriteComic @model @auth(rules: [{ allow: owner }]) {
+  id: ID!
+  comic: Comic
+}

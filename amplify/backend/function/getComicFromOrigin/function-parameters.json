@@ -1,0 +1,12 @@
+{
+    "permissions": {
+        "storage": {
+            "comicsviewer": [
+                "create",
+                "read",
+                "update",
+                "delete"
+            ]
+        }
+    }
+}
